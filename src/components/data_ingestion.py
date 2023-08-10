@@ -49,7 +49,7 @@ class DataIngestion:
         except Exception as e:
             raise CustomException(e,sys)
         
-# Data Ingestion
+#Data Ingestion
 # if __name__ == "__main__":
 #     obj = DataIngestion()
 #     train_data,test_data = obj.initiate_data_ingestion()
@@ -63,6 +63,8 @@ class DataIngestion:
 #     data_transformation = DataTransformation()
 #     train_arr,test_arr = data_transformation.inititate_data_transformation(train_data_path,test_data_path)
 
+
+#model trainer
 if __name__ == "__main__":
     obj = DataIngestion()
     train_data,test_data = obj.initiate_data_ingestion()
